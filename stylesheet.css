@@ -13,8 +13,8 @@ body{
 
 /*Divs*/
 #mainDiv{
-    margin-left: 15em;
-    margin-right: 15em;
+    margin-left: 5em;
+    margin-right: 5em;
     margin-bottom: 2em;
     padding: 2em;
     background-color:var(--fg-color);
@@ -22,8 +22,8 @@ body{
 }
 
 #footerDiv{
-    margin-left: 25em;
-    margin-right: 25em;
+    margin-left: 5em;
+    margin-right: 5em;
     border: 1em solid var(--border-color);
 }
 
