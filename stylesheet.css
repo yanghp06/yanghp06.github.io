@@ -1,0 +1,80 @@
+/*Variables*/
+:root{
+    --bg-color: rgb(239, 195, 166); /* #5 color and background colors */
+    --fg-color: rgb(247, 215, 179);
+    --border-color: rgb(201, 162, 98);
+}
+
+/*General Declarations*/
+body{
+    background-color:var(--bg-color);
+    font-size: 1.5em;
+}
+
+/*Divs*/
+#mainDiv{
+    margin-left: 25em;
+    margin-right: 25em;
+    margin-bottom: 2em;
+    padding: 2em;
+    background-color:var(--fg-color);
+    border: 1em solid var(--border-color);
+}
+
+#footerDiv{
+    margin-left: 25em;
+    margin-right: 25em;
+    border: 1em solid var(--border-color);
+}
+
+/*Main Div Elements*/
+img{
+    float: right; /* #1 Image floats to the right */
+    height: 18em;
+    width: 18em;
+    padding: 1em;
+    border: 0.5em solid var(--border-color);
+}
+
+h1{
+    text-decoration: underline;
+    font-size: 5em;
+    background-color: rgb(249, 246, 209);
+}
+
+h1::first-letter{ /* #2 Pseudo Element Selector */
+    text-decoration: overline;
+}
+
+h2{
+   text-decoration: underline;
+   background-color: rgb(249, 246, 209); 
+}
+
+h1, h2{ /*Collapses the element's block to fit the content*/
+    width:fit-content;
+}
+
+table{
+    border: 0.25em solid  var(--border-color);
+    text-align: center;
+}
+
+th{
+    text-decoration: underline;
+}
+
+tr:nth-child(even){ /* #4 :nth-child(n) psuedo-class selector for table */
+    background-color: rgb(249, 246, 209);
+}
+
+/*Footer Div Elements*/
+#footPara{
+    text-align: center;
+    background-color:var(--fg-color);
+}
+
+a:hover{ /* #3 Psuedo-class selector for links */
+    color: rgb(255, 183, 0);
+    text-decoration: none;
+}
